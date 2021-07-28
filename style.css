@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header {
+    
+    background-color: #264653;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-f-part {
+    padding-top: 215px;
+    padding-left: 156px;
+}
+
+.first-para {
+    font-size: .875rem;
+}
+
+.head-one {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.second-para {
+    margin-top: 18px;
+    font-size: 1rem;
+}
+
+.manu-btn {
+    margin-top: 21px;
+    padding: 10px 46px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #E76F51;
+    
+}
+
+
+.h-s-part {
+    padding-top: 155px;
+    padding-bottom: 96px ;
+}
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    
+    
+    .h-f-part {
+        
+        margin: 0;
+        padding: 15px;
+        
+}
+
+    .h-f-part p {
+        font-size: 16px;
+    }
+
+    .h-f-part h1 {
+        font-size: 36px;
+    }
+
+    button {
+        padding: 0;
+        margin: 0;
+    }
+
+    .h-s-part {
+        margin-top: 56px;
+        margin-bottom: 34px;
+        padding:0;
+    }
+    .h-image {
+        margin: 0;
+        padding: 0;
+        width: 321px;
+        height: 260px;
+}
+   
+}
