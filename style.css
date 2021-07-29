@@ -1,9 +1,9 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
-}
+} */
 
 
 header {
@@ -80,6 +80,52 @@ header {
 }
 
 
+.card-img-size {
+    width: 149px;
+    height: 149px;
+}
+
+
+.client-review {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.client-review h1 {
+    font-size: 3rem;
+
+}
+
+.t-color {
+    color: #E76F51;
+}
+
+.fas, .far {
+    color: #E77C40;
+}
+
+
+
+
+.faq-img {
+    margin: 0;
+    padding: 0;
+    width: 432px;
+    height: 424px;
+}
+
+.fq-item {
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.bt-f-size {
+    font-size: 1rem;
+}
+
+
+
 @media only screen and (max-width: 480px) {
     
     
@@ -133,4 +179,14 @@ header {
     .single-image {
         padding-bottom: 116px;
     }
+
+    .faq-items {
+        align-items: center;
+    }
+    .faq-img {
+        margin-top: 23px;
+        width: 275px;
+        height: 270px;
+    }
+
 }

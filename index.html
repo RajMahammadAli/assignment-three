@@ -11,15 +11,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- Google fonts poppins -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-
-<link rel="stylesheet" href="style.css">
+  <!-- manual style sheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+
     <!-- start of header -->
     <header>
 
@@ -31,7 +34,11 @@
                     <p class="first-para">Computer-controlled digital transistorized with electronic advance</p>
                     <h1 class="head-one">Honda CBR 300R</h1>
                     <p class="second-para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn manu-btn text-white">Purchase</button>
+                    
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Purchase
+                    </button>
+                    
                 </div>
 
                 <div class="col-lg-6 col-sm-12 h-s-part">
@@ -64,15 +71,207 @@
                     </div>
                 </div>
             </section>
-        </main>
-            
 
+
+            <section class="client-review">
+                <h1 class="text-center">Happy <span class="t-color">Clients says</span></h1>
+                <div class="container-fluid">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-lg-4 col-sm-12 mt-4">
+                          <div class="card h-100 d-flex align-items-center">
+                            <img src="images/user-1.png" class="card-img-top mt-3 card-img-size" alt="user-1">
+                            <div class="card-body text-center">
+                              <p class="card-text mt-3 mb-3">I wish you all the success in the world. Thank you for being such a delight to work with! Let me know if you need me for any future projects</p>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <h5 class="card-title mt-3 text-primary">Regina Miles</h5>
+                              <h6 class="mt-3 mb-3">Banker</h6>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-12 mt-4">
+                            <div class="card h-100 d-flex align-items-center">
+                              <img src="images/user-2.png" class="card-img-top mt-3 card-img-size" alt="user-1">
+                              <div class="card-body text-center">
+                                <p class="card-text mt-3 mb-3">Many many thanks, I really appreciate the gig Boutique feedback! Good luck with the project!
+                                    Your feedback means a lot to me , many thanks!</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5 class="card-title mt-3 text-primary">Marry Jaine</h5>
+                                <h6 class="mt-3 mb-3">Teacher</h6>
+                              </div>
+                              
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-sm-12 mt-4">
+                            <div class="card h-100 d-flex align-items-center">
+                              <img src="images/user-3.png" class="card-img-top mt-3 card-img-size" alt="user-1">
+                              <div class="card-body text-center">
+                                <p class="card-text mt-3 mb-3">Special thanks to my amazing photographer and graphic designer, Kim Timothy, at Boutique By Design.</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5 class="card-title mt-3 text-primary">Mike Miller</h5>
+                                <h6 class="mt-3 mb-3">Manager</h6>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- accordion-part -->
+
+            <section class="client-review">
+              <h1 class="text-center">Happy <span class="t-color">Clients says</span></h1>
+              <div class="container-fluid">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col-lg-6 col-sm-12 mt-4">
+                        <div class="card h-100 d-flex align-items-center">
+                          <img src="images/faq.png" class="card-img-top mt-3" alt="user-1">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 col-sm-12 mt-4">
+                          <div class="card h-100 d-flex align-items-left">
+                            
+                            <div class="accordion accordion-flush m-4" id="accordionFlushExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    How can I benefit from Shopify?
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Shopify is an excellent e-commerce platform with some of the best design capabilities and extensive features.</div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    How are online retail stores?
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.In the current climate, online retailers or e-commerce companies are in the best position as more and more people are shopping online than ever before.</div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h3 class="accordion-header" id="flush-headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    What is the future of the industry?
+                                  </button>
+                                </h3>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        
+                      
+                  </div>
+              </div>
+          </section>
+
+
+            <!-- <section class="container f-question">
+                <h1 class="text-center">Frequently Asked <span class="t-color">Questions</span></h1>
+                
+                
+                <div class="container fq-item">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-6 col-sm-12 faq-items">
+                        <img class="faq-img" src="images/faq.png" alt="">
+                    </div>
+
+
+                    
+                    <div class="col-lg-6 col-sm-12 mt-5">
+
+                        
+
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h5 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Q1. What are the features of E-commerce?
+                                </button>
+                              </h5>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  The features of e-commerce are non-cash payment, service availability (24*7), Improved sales, support, advertising and marketing, inventory management, communication efficient, faster, reliable, less time consuming, on the go service and saving time.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h5 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Q2. What are the short-comings of e-commerce?
+                                </button>
+                              </h5>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  Traditional Commerce is mainly dependent on exchanging information from one person to another, whereas E-commerce has very less dependency on the same. In traditional commerce, transactions or communication are done synchronously.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h5 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Q3. What are the advantages to the organization?
+                                </button>
+                              </h5>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  With the help of e-commerce, organizations can extend their business or markets to national or international markets by investing less capital. It can easily locate more customers, suppliers, and partners as well. It helps the organizations
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        
+                        
+                        
+
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main> -->
+                    
         <!-- end of main  -->
 
+        
+
+
+        
+
+
+
+
+        
     <!-- js link -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4265e85a27.js" crossorigin="anonymous"></script>
 </body>
 </html>
