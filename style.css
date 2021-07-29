@@ -47,10 +47,40 @@ header {
 }
 
 
+.f-bike-main {
+    padding-left: 156px;
+}
+.feature-text {
+    margin-top: 4rem;
+}
+
+.feature-text h1 {
+    margin-bottom: 0;
+}
+
+.feature-text p {
+    margin-top: 0;
+    padding-top: 0;
+    color: #E76F51;
+    font-size: .875rem;
+}
+
+.cont-image {
+    padding-top: 7.5rem;
+}
+
+.f-image {
+    width: 288px;
+    height: 243px;
+
+}
+
+.g-scale img {
+    filter: grayscale(100%);
+}
 
 
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
     
     
     .h-f-part {
@@ -84,5 +114,23 @@ header {
         width: 321px;
         height: 260px;
 }
-   
+
+
+    .f-bike-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .feature-text {
+        margin: 0;
+        padding-top: 107px;
+    }
+
+    .cont-image {
+        margin: 0;
+        padding-top: 101px;
+    }
+    .single-image {
+        padding-bottom: 116px;
+    }
 }
